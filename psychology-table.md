@@ -8,110 +8,103 @@ will earn trust and feel right for THIS specific product and audience.
 
 ## The five questions
 
-Ask these for every brief, in order.
+Work through all five before making any design decision.
 
 **1. What emotion does the user feel when they first need this product?**
 
-Identify the emotional state at the moment of need.
-The visual language should either validate that emotion or resolve it toward its positive counterpart.
+The visual language should resolve that emotion toward its positive counterpart.
 
-- Anxiety → calm, controlled, clear
-- Aspiration → elevated, spacious, refined
-- Excitement → expressive, energetic, bold
-- Obligation → efficient, minimal, frictionless
-- Pride → premium, distinctive, restrained
-- Curiosity → inviting, warm, exploratory
+- Anxiety → calm, controlled, legible, spacious
+- Aspiration → elevated, refined, distinctively beautiful
+- Excitement → expressive, energetic, bold, kinetic
+- Obligation → efficient, minimal, frictionless, fast
+- Pride → premium, restrained, exclusive
+- Curiosity → warm, inviting, exploratory, approachable
+- Frustration → clear, direct, low-friction, immediate
 
 **2. What does this audience already trust visually?**
 
-Think about what products and institutions this audience uses daily and respects.
-Those visual languages are pre-loaded in their subconscious. Borrow those signals.
+What products and institutions does this audience use daily and respect?
+Those visual languages are pre-loaded in their subconscious.
+Borrow those trust signals — don't fight them.
 
 Useful prompt: *"What are three products this audience already trusts, and what do they visually have in common?"*
 
 **3. What would make this audience distrust the product on first sight?**
 
 Every audience has visual red flags — aesthetics associated with things they've been burned by,
-things that feel low-quality, or things that feel wrong for the context.
+things that signal low quality, or things that feel categorically wrong.
 
 Useful prompt: *"What kind of website would make this audience immediately close the tab?"*
 The answer goes directly into **Never look like**.
 
 **4. What is the power dynamic between user and product?**
 
-This determines formality, hierarchy, and density:
 - Tool serving the user → neutral, utilitarian, user-led
 - Expert advising the user → authoritative, structured, confident
 - Community the user belongs to → warm, expressive, peer-level
-- System the user operates within → institutional, formal, structured
+- System the user operates within → institutional, formal, dense
 
 **5. What physical-world analogy evokes the right feeling?**
 
-Almost every digital product has a physical-world ancestor.
-Use it as an aesthetic anchor.
-
 A well-organized law office. A high-end hardware store. A friend's kitchen.
 A professional sports facility. A luxury hotel lobby. A research library.
-These aren't answers — they're starting points.
+A local farmers market. A clean hospital. An architect's studio.
+
+These aren't answers — they're anchors for making consistent decisions.
 
 ---
 
 ## Positioning axes
 
-These are spectrums, not rules. Where a product sits on each axis
-informs design decisions. The right position depends entirely on product and audience.
+Spectrums, not rules. The right position depends entirely on product and audience.
 
 **Formal ←→ Casual**
-Affects: font choice, button style, spacing density
+Affects: font choice, button style, copy density, spacing
 
 **Dense ←→ Spacious**
-Affects: layout, padding, information hierarchy
-Dense = expert users moving fast. Spacious = high-consideration decisions, exploratory use.
+Dense = expert users, fast decisions, maximum information. Spacious = consideration, exploration, luxury.
 
 **Restrained ←→ Expressive**
-Affects: color saturation, animation, decorative elements
-Restraint signals confidence and authority. Expression signals personality and warmth.
-Neither is better.
+Restraint signals authority and confidence. Expression signals personality and warmth. Neither is better.
 
 **Dark ←→ Light**
-Dark: focus, precision, technical contexts, premium consumer, low-light use
-Light: trust, transparency, document-heavy, professional daytime contexts
-
-**Static ←→ Kinetic**
-High-stakes decisions → minimal motion
-Exploratory / entertainment → motion guides and delights
-Time-pressured contexts → fast, purposeful transitions only
+Dark: technical precision, premium consumer, focus, low ambient light use.
+Light: transparency, document-heavy contexts, professional daytime use, institutional trust.
 
 **Sharp ←→ Rounded**
-Near-square: precision, authority, technical, institutional
-Moderately rounded: accessible, professional, friendly
-Very rounded / pill: playful, consumer, approachable, app-native
+Near-square: precision, authority, institutional, technical.
+Moderately rounded: accessible, professional, friendly.
+Very rounded: playful, consumer, app-native, approachable.
+
+**Static ←→ Kinetic**
+High-stakes decisions → minimal motion. Exploratory/entertainment → motion guides and delights.
+Time-pressured contexts → fast, purposeful only.
 
 ---
 
-## Price point as a signal
+## Price point and positioning
 
-When other context is sparse, price point and positioning are reliable anchors:
+Reliable anchor when other signals are sparse.
 
-**Commodity / mass market**
-Warmth, accessibility, low friction. Visual language that says "this is for everyone."
-
-**Mid-market / professional**
-Credibility, clarity, reliability. Visual language that says "serious tool, serious people."
-
-**Premium / high-consideration**
-Restraint, distinctiveness, confidence. Less is more. Whitespace is not waste.
-
-**Enterprise / institutional**
-Authority, formality, density. Visual language that belongs in a boardroom.
+**Commodity / mass market:** Warmth, accessibility, low friction. "This is for everyone."
+**Mid-market / professional:** Credibility, clarity, reliability. "Serious tool, serious people."
+**Premium / high-consideration:** Restraint, distinctiveness. Less is more. Whitespace earns trust.
+**Enterprise / institutional:** Authority, formality, density. Boardroom-appropriate.
 
 ---
 
 ## When the brief is sparse
 
-If you have minimal information:
-
-1. Apply the five questions using only what's given
-2. Be explicit in the brandpack about what you're inferring vs. what was stated
+1. Work through the five questions using only what's given
+2. State explicitly in the brandpack what was inferred vs. stated
 3. Default to the more conservative interpretation — easier to add expressiveness later than rebuild credibility
-4. When uncertain between two directions, pick the one that best resolves the user's primary emotion at the moment of need
+4. Tiebreaker: which direction better resolves the user's primary emotion at the moment of need?
+
+---
+
+## When nothing fits
+
+If the product genuinely doesn't match any obvious pattern, these five questions always produce
+a usable answer. The categories in the original table were examples of applying these questions,
+not exhaustive cases. Reason from the questions, not from trying to force a category match.
