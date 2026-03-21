@@ -9,11 +9,13 @@ Output a single complete file. Start with `# Brand:`. No preamble, no explanatio
 # Brand: [Name]
 > [One line: what it is + the visual feeling it should create]
 
+**Source:** [Brief / Website / Repo / combination] — [one sentence on what was extracted or inferred]
+
 ---
 
 ## Visual Identity
 
-**Aesthetic:** [2–3 words: e.g. "warm minimalism", "dark precision", "institutional authority"]
+**Aesthetic:** [2–3 words]
 **Mode:** [Light / Dark / Both]
 **References:** [2–3 real products or design movements with similar visual language]
 **Never look like:** [2 things this brand must never visually resemble]
@@ -22,14 +24,18 @@ Output a single complete file. Start with `# Brand:`. No preamble, no explanatio
 
 ## Colors
 
-Primary: #XXXXXX — [usage: CTAs, active states, key UI elements]
-Secondary: #XXXXXX — [usage]
-Accent: #XXXXXX — [usage — note if used sparingly]
-Background: #XXXXXX — [page background]
-Surface: #XXXXXX — [cards, panels, modals]
-Border: #XXXXXX — [dividers, input borders, table lines]
-Text Primary: #XXXXXX — [headings, body]
-Text Secondary: #XXXXXX — [captions, metadata, placeholders]
+[For each color, use one of these annotation formats:]
+[Extracted from source:] Primary: #XXXXXX — [source: tailwind.config / globals.css / component] — [usage]
+[Inferred or added:]     Primary: #XXXXXX — [inferred: reason] — [usage]
+
+Primary: #XXXXXX — [source or inferred note] — [usage: CTAs, active states, key UI elements]
+Secondary: #XXXXXX — [source or inferred] — [usage]
+Accent: #XXXXXX — [source or inferred] — [usage, note if used sparingly]
+Background: #XXXXXX — [source or inferred] — [page background]
+Surface: #XXXXXX — [source or inferred] — [cards, panels, modals]
+Border: #XXXXXX — [source or inferred] — [dividers, input borders, table lines]
+Text Primary: #XXXXXX — [source or inferred] — [headings, body]
+Text Secondary: #XXXXXX — [source or inferred] — [captions, metadata, placeholders]
 Success: #XXXXXX
 Warning: #XXXXXX
 Error: #XXXXXX
@@ -41,17 +47,25 @@ Rules:
 - [Usage rule 2]
 - [Usage rule 3]
 
+[If repo input and inconsistencies found:]
+Resolved inconsistencies:
+- [e.g. "Three different grey values in use (#888, #8A8A8A, #909090) — standardized to Text Secondary: #8A8A8A"]
+- [e.g. "Primary button used #2563EB in desktop and #3B82F6 on mobile — standardized to #2563EB throughout"]
+
 ---
 
 ## Typography
 
 Heading: [Font name] — [Google Fonts URL]
+Source: [extracted from / inferred]
 Why: [One sentence tied to this specific audience and product]
 
 Body: [Font name] — [Google Fonts URL]
+Source: [extracted from / inferred]
 Why: [One sentence]
 
 Mono: [Font name] — [Google Fonts URL]
+Source: [extracted from / inferred]
 For: [What data or content uses mono in this product]
 
 Scale:
@@ -68,6 +82,8 @@ Rules:
 - [e.g. "Headings always sentence case"]
 - [e.g. "All numerical data in mono font, no exceptions"]
 
+[Resolved inconsistencies if any]
+
 ---
 
 ## Spacing & Layout
@@ -78,6 +94,8 @@ Max width: [px]
 Grid: [columns, gutter]
 Density: [compact / default / spacious] — [one sentence why]
 
+[Resolved inconsistencies if any]
+
 ---
 
 ## Border Radius
@@ -87,7 +105,9 @@ md: [px] — [usage]
 lg: [px] — [usage]
 full: 9999px — [note if this brand uses or avoids pill shapes]
 
-Personality: [One sentence — what the radius choices say about this brand]
+Personality: [One sentence]
+
+[Resolved inconsistencies if any]
 
 ---
 
@@ -97,7 +117,7 @@ Buttons:
 - Primary: [bg, text color, radius, hover behavior]
 - Secondary: [style]
 - Ghost: [style]
-- Rules: [brand-specific constraints, e.g. "no shadows ever"]
+- Rules: [brand-specific constraints]
 
 Cards:
 - [bg, border, radius, shadow or not, padding]
@@ -112,6 +132,8 @@ Navigation:
 Icons:
 - [Preferred set — Lucide / Heroicons / Phosphor]
 - [Size and stroke conventions]
+
+[Resolved inconsistencies if any]
 
 ---
 
@@ -193,5 +215,6 @@ When this brandpack.md is in your context:
 3. Apply border radius tokens per the radius personality.
 4. Apply motion rules — if an effect is banned, it does not appear anywhere.
 5. Apply component rules literally — buttons, cards, inputs match these specs exactly.
-6. Do NOT change copy, content, features, or UX structure. This file controls visuals only.
-7. When in doubt: does this look like [aesthetic from Visual Identity]? If not, adjust until it does.
+6. [For repo-sourced brandpacks:] This file is the source of truth for the entire codebase. Existing code that contradicts it should be updated to match, not the other way around.
+7. Do NOT change copy, content, features, or UX structure. This file controls visuals only.
+8. When in doubt: does this look like [aesthetic from Visual Identity]? If not, adjust until it does.
